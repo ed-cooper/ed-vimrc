@@ -50,3 +50,6 @@ map <S-Enter> O<ESC>
 " Also match angle brackets
 set matchpairs+=<:>
 
+" Use system clipboard as default
+set clipboard=unnamedplus
+

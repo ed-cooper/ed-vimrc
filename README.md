@@ -1,10 +1,10 @@
 # ed-vimrc
-My personal vim configuration
+My personal vim configuration.
 
 ## Requirements
 Optimised for vim version 8.1.
 
-*Requires compiled Python 3 support.*
+*Requires compiled Python 3 and system clipboard support.*
 
 ## Usgae
 Clone this repo into your `~/.vim` folder.
