@@ -4,3 +4,6 @@
 [submodule "bundle/always/vim-fugitive"]
 	path = bundle/always/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
+[submodule "bundle/always/vim-gitgutter"]
+	path = bundle/always/vim-gitgutter
+	url = git://github.com/airblade/vim-gitgutter.git
