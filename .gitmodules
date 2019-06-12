@@ -1,3 +1,3 @@
-[submodule "bundle/vim-airline"]
-	path = bundle/vim-airline
+[submodule "bundle/always/vim-airline"]
+	path = bundle/always/vim-airline
 	url = https://github.com/vim-airline/vim-airline
