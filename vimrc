@@ -53,3 +53,6 @@ set matchpairs+=<:>
 " Use system clipboard as default
 set clipboard=unnamedplus
 
+" Pathogen
+execute pathogen#infect()
+
