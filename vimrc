@@ -67,3 +67,11 @@ execute pathogen#infect('bundle/always/{}')
 " Airline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 0
+
+" Language specific support
+
+augroup filetype_perl
+    autocmd!
+    autocmd FileType perl noremap <buffer> <F5> :!clear;perl %<CR>
+augroup end
+
