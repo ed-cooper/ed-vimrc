@@ -53,6 +53,10 @@ set matchpairs+=<:>
 " Use system clipboard as default
 set clipboard=unnamedplus
 
+" Airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 0
+
 " Pathogen
 execute pathogen#infect()
 
