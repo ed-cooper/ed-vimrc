@@ -4,9 +4,12 @@ set number relativenumber
 " Toggle between realtive and absolute line numbers
 augroup numbertoggle
     autocmd!
-    autocmd BufEnter,FocusGained,InsertLeave * set relativenumber " TODO fix this
+    autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
     autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
 augroup END
+
+" Map Ctrl-C to Esc in insert mode, causing InsertLeave to fire
+inoremap <C-C> <Esc>
 
 " Highlight current line
 set cursorline
