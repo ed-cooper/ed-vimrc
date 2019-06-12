@@ -1,3 +1,6 @@
 [submodule "bundle/always/vim-airline"]
 	path = bundle/always/vim-airline
 	url = https://github.com/vim-airline/vim-airline
+[submodule "bundle/always/vim-fugitive"]
+	path = bundle/always/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
