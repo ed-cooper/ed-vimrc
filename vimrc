@@ -53,6 +53,9 @@ set matchpairs+=<:>
 " Use system clipboard as default
 set clipboard=unnamedplus
 
+" Set lazy redrwaing
+set lazyredraw
+
 " Pathogen
 
 " Always load these packages
