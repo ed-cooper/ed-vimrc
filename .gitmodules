@@ -7,3 +7,6 @@
 [submodule "bundle/always/vim-gitgutter"]
 	path = bundle/always/vim-gitgutter
 	url = git://github.com/airblade/vim-gitgutter.git
+[submodule "bundle/always/gruvbox"]
+	path = bundle/always/gruvbox
+	url = https://github.com/morhetz/gruvbox/

@@ -68,6 +68,12 @@ execute pathogen#infect('bundle/always/{}')
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 0
 
+" Colour scheme
+let g:gruvbox_italic=1
+set termguicolors
+colorscheme gruvbox
+set background=dark
+
 " Language specific support
 
 augroup filetype_perl
