@@ -50,6 +50,10 @@ nnoremap k gk
 map <Enter> o<ESC>
 map <S-Enter> O<ESC>
 
+" Use tab for indentation
+vmap <tab> >gv
+vmap <s-tab> <gv
+
 " Also match angle brackets
 set matchpairs+=<:>
 
