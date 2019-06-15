@@ -11,5 +11,5 @@
 	path = bundle/always/gruvbox
 	url = https://github.com/morhetz/gruvbox/
 [submodule "bundle/always/perlomni.vim"]
-	path = bundle/always/perlomni.vim
+	path = bundle/perl/perlomni.vim
 	url = https://github.com/c9s/perlomni.vim

@@ -1,3 +1,9 @@
+" Always load these plugins
+execute pathogen#infect('bundle/always/{}')
+
+" Load filetype specific plugins
+autocmd FileType * if isdirectory($HOME . '/.vim/bundle/' . &ft) | execute pathogen#infect('bundle/' . &ft. '/{}') | endif
+
 " Line numbers
 set number relativenumber
 
@@ -63,10 +69,7 @@ set clipboard=unnamedplus
 " Set lazy redrwaing
 set lazyredraw
 
-" Pathogen
-
-" Always load these packages
-execute pathogen#infect('bundle/always/{}')
+" Package configutation
 
 " Airline
 let g:airline#extensions#tabline#enabled = 1
