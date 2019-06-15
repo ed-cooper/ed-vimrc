@@ -13,3 +13,6 @@
 [submodule "bundle/always/perlomni.vim"]
 	path = bundle/perl/perlomni.vim
 	url = https://github.com/c9s/perlomni.vim
+[submodule "bundle/always/AutoComplPop"]
+	path = bundle/always/AutoComplPop
+	url = https://github.com/vim-scripts/AutoComplPop

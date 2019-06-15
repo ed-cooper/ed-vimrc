@@ -81,6 +81,9 @@ set termguicolors
 colorscheme gruvbox
 set background=dark
 
+" AutoComplPop
+let g:acp_behaviorPerlOmniLength=0
+
 " Language specific support
 
 augroup filetype_perl
