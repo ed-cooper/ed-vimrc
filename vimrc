@@ -85,6 +85,6 @@ set background=dark
 
 augroup filetype_perl
     autocmd!
-    autocmd FileType perl noremap <buffer> <F5> :!clear;perl %<CR>
+    autocmd FileType perl noremap <buffer> <F5> :w<CR>:!clear;perl %<CR>
 augroup end
 
