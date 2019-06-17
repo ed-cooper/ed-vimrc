@@ -88,6 +88,12 @@ let g:acp_behaviorPerlOmniLength=0
 
 augroup filetype_perl
     autocmd!
+
+    " F1 = Format code
+    autocmd FileType perl nnoremap <F1> :%!perltidy -q<CR>
+    autocmd FileType perl vnoremap <F1> :!perltidy -q<CR>
+
+    " F5 = Save and run
     autocmd FileType perl noremap <buffer> <F5> :w<CR>:!clear;perl %<CR>
 augroup end
 
