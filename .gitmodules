@@ -16,3 +16,6 @@
 [submodule "bundle/always/AutoComplPop"]
 	path = bundle/always/AutoComplPop
 	url = https://github.com/vim-scripts/AutoComplPop
+[submodule "bundle/always/syntastic"]
+	path = bundle/always/syntastic
+	url = https://github.com/vim-syntastic/syntastic

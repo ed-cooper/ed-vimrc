@@ -84,10 +84,22 @@ set background=dark
 " AutoComplPop
 let g:acp_behaviorPerlOmniLength=0
 
+" Syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
 " Language specific support
 
 augroup filetype_perl
     autocmd!
     autocmd FileType perl noremap <buffer> <F5> :w<CR>:!clear;perl %<CR>
+    autocmd FileType perl let g:syntastic_perl_checkers = ['perl']
+    autocmd FileType perl let g:syntastic_enable_perl_checker = 1
 augroup end
 
