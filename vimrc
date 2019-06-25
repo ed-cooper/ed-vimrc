@@ -98,6 +98,12 @@ let g:syntastic_check_on_wq = 0
 
 augroup filetype_perl
     autocmd!
+
+    " F1 = Format code
+    autocmd FileType perl nnoremap <F1> :%!perltidy -q<CR>
+    autocmd FileType perl vnoremap <F1> :!perltidy -q<CR>
+
+    " F5 = Save and run
     autocmd FileType perl noremap <buffer> <F5> :w<CR>:!clear;perl %<CR>
     autocmd FileType perl let g:syntastic_perl_checkers = ['perl']
     autocmd FileType perl let g:syntastic_enable_perl_checker = 1
