@@ -105,6 +105,8 @@ augroup filetype_perl
 
     " F5 = Save and run
     autocmd FileType perl noremap <buffer> <F5> :w<CR>:!clear;perl %<CR>
+
+    " Enable syntastic for perl
     autocmd FileType perl let g:syntastic_perl_checkers = ['perl']
     autocmd FileType perl let g:syntastic_enable_perl_checker = 1
 augroup end
