@@ -109,5 +109,8 @@ augroup filetype_perl
     " Enable syntastic for perl
     autocmd FileType perl let g:syntastic_perl_checkers = ['perl']
     autocmd FileType perl let g:syntastic_enable_perl_checker = 1
+
+    " Set text width to 78
+    autocmd FileType perl set textwidth=78
 augroup end
 
