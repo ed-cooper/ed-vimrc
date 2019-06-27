@@ -38,6 +38,8 @@ set expandtab " Automatically convert tabs into spaces
 " Searching
 set incsearch " Search as characters are entered
 set hlsearch " Highlight matches
+set ignorecase " Ignore search case
+set smartcase " ... except when using capital letters
 
 " Clear search highlight with Ctrl+L
 nnoremap <silent> <C-L> :nohlsearch<CR><C-L>
