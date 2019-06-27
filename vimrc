@@ -44,6 +44,9 @@ set smartcase " ... except when using capital letters
 " Clear search highlight with Ctrl+L
 nnoremap <silent> <C-L> :nohlsearch<CR><C-L>
 
+" Enable mouse in vim
+set mouse=a
+
 " Folding
 set foldenable " Enable folding
 set foldlevelstart=10 " Open most folds by default
