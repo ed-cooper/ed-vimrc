@@ -1,3 +1,6 @@
+" Set nocompatible
+set nocompatible
+
 " Always load these plugins
 execute pathogen#infect('bundle/always/{}')
 
