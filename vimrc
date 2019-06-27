@@ -47,6 +47,9 @@ nnoremap <silent> <C-L> :nohlsearch<CR><C-L>
 " Enable mouse in vim
 set mouse=a
 
+" F11 toggles paste mode
+set pastetoggle=<F11>
+
 " Folding
 set foldenable " Enable folding
 set foldlevelstart=10 " Open most folds by default
