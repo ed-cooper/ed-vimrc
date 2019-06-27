@@ -92,9 +92,6 @@ set termguicolors
 colorscheme gruvbox
 set background=dark
 
-" AutoComplPop
-let g:acp_behaviorPerlOmniLength=0
-
 " Syntastic
 " set statusline+=%#warningmsg#
 " set statusline+=%{SyntasticStatuslineFlag()}

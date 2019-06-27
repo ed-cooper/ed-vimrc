@@ -18,10 +18,6 @@
 	path = bundle/perl/perlomni.vim
 	url = https://github.com/c9s/perlomni.vim
     ignore = dirty
-[submodule "bundle/always/AutoComplPop"]
-	path = bundle/always/AutoComplPop
-	url = https://github.com/vim-scripts/AutoComplPop
-    ignore = dirty
 [submodule "bundle/always/syntastic"]
 	path = bundle/always/syntastic
 	url = https://github.com/vim-syntastic/syntastic
@@ -29,4 +25,8 @@
 [submodule "bundle/always/vim-template"]
 	path = bundle/always/vim-template
 	url = https://github.com/aperezdc/vim-template/
+    ignore = dirty
+[submodule "bundle/always/YouCompleteMe"]
+	path = bundle/always/YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe
     ignore = dirty
