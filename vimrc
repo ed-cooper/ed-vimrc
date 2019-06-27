@@ -94,13 +94,10 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+" vim-templates
+let g:templates_directory="~/.vim/templates-local/"
+
 " Language specific support
-
-augroup file_templates
-    autocmd!
-
-    autocmd BufNewFile *.pl 0r ~/.vim/templates/perl-script.pl
-augroup end
 
 augroup filetype_perl
     autocmd!

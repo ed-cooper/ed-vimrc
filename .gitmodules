@@ -19,3 +19,6 @@
 [submodule "bundle/always/syntastic"]
 	path = bundle/always/syntastic
 	url = https://github.com/vim-syntastic/syntastic
+[submodule "bundle/always/vim-template"]
+	path = bundle/always/vim-template
+	url = https://github.com/aperezdc/vim-template/
