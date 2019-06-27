@@ -96,6 +96,12 @@ let g:syntastic_check_on_wq = 0
 
 " Language specific support
 
+augroup file_templates
+    autocmd!
+
+    autocmd BufNewFile *.pl 0r ~/.vim/templates/perl-script.pl
+augroup end
+
 augroup filetype_perl
     autocmd!
 
