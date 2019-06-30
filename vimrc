@@ -64,8 +64,8 @@ nnoremap j gj
 nnoremap k gk
 
 " Allow enter in normal mode
-nnoremap <Enter> o<ESC>
-nnoremap <S-Enter> O<ESC>
+nnoremap <buffer> <Enter> o<ESC>
+nnoremap <buffer> <S-Enter> O<ESC>
 
 " Use tab for indentation
 vmap <tab> >gv
