@@ -29,7 +29,11 @@ cd ~/.vim/bundle/always/YouCompleteMe
 python3 install.py
 ```
 
-This configuration also assumes use of the powerline patched fonts, which can be downloaded [here](https://github.com/powerline/fonts).
+This configuration also assumes use of the powerline patched fonts, which can be downloaded [here](https://github.com/powerline/fonts):
+
+```
+sudo apt install fonts-powerline
+```
 
 **Note:** I cannot guarantee any compatibility between settings in this repo and any pre-existing changes made to your personal `~/.vimrc` file.
 
